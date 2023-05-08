@@ -25,3 +25,21 @@ var x = 5;
 var y = 5;
 var z = x + y;
 document.getElementById("demo9").innerHTML = "The value of z is " + z;
+
+// js let 
+let a = 7;
+if(true){
+    let x = 6;
+    console.log(a);
+}
+
+let a2 = 10;
+{
+    let a2 = 2;
+}
+document.getElementById("demo10").innerHTML = a2;
+
+// carName = undefined;
+carName = "volvo"
+var carName;
+console.log(carName);
