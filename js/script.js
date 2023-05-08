@@ -43,3 +43,11 @@ document.getElementById("demo10").innerHTML = a2;
 carName = "volvo"
 var carName;
 console.log(carName);
+
+// js const 
+// with const , you cannot use a variable before it is declared
+const b = 20;
+{
+    const b = 2;
+}
+document.getElementById("myDemo").innerHTML = "b is " + b;
