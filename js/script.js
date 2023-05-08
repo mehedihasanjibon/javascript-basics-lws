@@ -15,3 +15,7 @@ function myBtn(){
 function myBtn2(){
     document.getElementById("demo5").innerHTML = "paragraph change";
 }
+
+// js syntax 
+document.getElementById("demo7").innerHTML = (5 + 6) * 10;
+document.getElementById("demo8").innerHTML = "Mh" + " " + "Jibon";
