@@ -51,3 +51,18 @@ const b = 20;
     const b = 2;
 }
 document.getElementById("myDemo").innerHTML = "b is " + b;
+
+// js operators 
+let b1 = 5;
+let b2 = 2;
+let b3 = b1 + b2;
+document.getElementById("demo11").innerHTML = "The sum of b1 + b2 is " + b3;
+
+var c = 10;
+c += 5;
+document.getElementById("demo12").innerHTML = c;
+
+let c1 = 5 + 5;
+let c2 = "5" + 5;
+let c3 = "Hello" + 5;
+document.getElementById("demo13").innerHTML = c1 + "<br>" + c2 + "<br>" + c3;
