@@ -18,4 +18,10 @@ function myBtn2(){
 
 // js syntax 
 document.getElementById("demo7").innerHTML = (5 + 6) * 10;
+// the values can be of carious types, such as numbers and string
 document.getElementById("demo8").innerHTML = "Mh" + " " + "Jibon";
+
+var x = 5;
+var y = 5;
+var z = x + y;
+document.getElementById("demo9").innerHTML = "The value of z is " + z;
