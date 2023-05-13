@@ -73,3 +73,8 @@ let d = 5;
 d--;
 let d1 = d ;
 document.getElementById("demo14").innerHTML = d1;
+
+// js assignment 
+let e = 10;
+e += 5;
+document.getElementById("demo15").innerHTML = e;
