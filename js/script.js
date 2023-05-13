@@ -98,6 +98,13 @@ let f2 = 34;
 let f3 = 3.14;
 document.getElementById("demo19").innerHTML = f1 + "<br>" + f2 + "<br>" + f3;
 
+// exponential notation
 let f4 = 123e5;
 let f5 = 123e-5;
 document.getElementById("demo20").innerHTML = f4 + "<br>" + f5;
+
+// js Booleans 
+let g = 5;
+let g1 = 5;
+let g2 = 6;
+document.getElementById("demo21").innerHTML = (g == g1) + "<br>" + (g == g2);
