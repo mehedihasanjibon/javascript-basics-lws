@@ -66,3 +66,10 @@ let c1 = 5 + 5;
 let c2 = "5" + 5;
 let c3 = "Hello" + 5;
 document.getElementById("demo13").innerHTML = c1 + "<br>" + c2 + "<br>" + c3;
+
+// js arithmetic
+// the decrement operator
+let d = 5;
+d--;
+let d1 = d ;
+document.getElementById("demo14").innerHTML = d1;
