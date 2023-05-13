@@ -91,3 +91,13 @@ f = 5;      //now f is a number
 f = "New York";   //now f is a string
 
 document.getElementById("demo18").innerHTML = f;
+
+// Numbers can be written with, or without decimals
+let f1 = 34.00
+let f2 = 34;
+let f3 = 3.14;
+document.getElementById("demo19").innerHTML = f1 + "<br>" + f2 + "<br>" + f3;
+
+let f4 = 123e5;
+let f5 = 123e-5;
+document.getElementById("demo20").innerHTML = f4 + "<br>" + f5;
