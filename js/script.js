@@ -78,3 +78,16 @@ document.getElementById("demo14").innerHTML = d1;
 let e = 10;
 e += 5;
 document.getElementById("demo15").innerHTML = e;
+
+// js data type 
+let e1 = 16 + 4 + "volvo";
+document.getElementById("demo16").innerHTML = e1;
+
+let e2 = "volvo" + 15 + 6;
+document.getElementById("demo17").innerHTML = e2;
+
+let f;      //now f is undefined
+f = 5;      //now f is a number 
+f = "New York";   //now f is a string
+
+document.getElementById("demo18").innerHTML = f;
