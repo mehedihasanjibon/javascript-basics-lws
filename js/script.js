@@ -165,3 +165,41 @@ function myFunction1(){
 
 console.log(carNames);
 myFunction1();
+
+
+// js objects 
+const car = {
+    type: "fiat" ,
+    model: 500,
+    color: "white",
+};
+document.getElementById("demo24").innerHTML = "The car type is " + car . type;
+
+const person = {
+    firstName: "Mh",
+    lastName: "Jibon",
+    age: 23,
+    cyeColor: "blue",
+};
+document.getElementById("demo25").innerHTML = person.firstName + " is " + person.age + " years old.";
+
+
+const cars = {
+    name: "fiat",
+    model: 500,
+    weight: "white",
+    start: function (){
+        this.drive();
+        console.log("car has started");
+    },
+    drive: function (){
+        console.log("car is driving");
+    }
+};
+console.log(cars.weight);
+console.log(cars['name']);
+cars.start();
+
+//let i1 = 5; // literal syntax
+let i1 = new Number(5);
+console.log(i1);
