@@ -218,6 +218,7 @@ function displayDate(){
 let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 console.log(text.length);
 
+
 // Escape character
 let texts = "we are the so-called \"vikings\" from the north.";
 console.log(texts);
@@ -227,3 +228,10 @@ console.log(text1);
 
 let text2 = "The character \\ is called backlash";
 console.log(text2);
+
+// you can break a code line within a text string with a backlash
+document.getElementById("demo28").innerHTML = "Hello\ jibon!";
+
+let j1 = "john";
+let j2 = new String("john");
+document.getElementById("demo29").innerHTML = typeof j1 + "<br>" + typeof j2;
