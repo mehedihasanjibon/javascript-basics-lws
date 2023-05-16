@@ -235,3 +235,22 @@ document.getElementById("demo28").innerHTML = "Hello\ jibon!";
 let j1 = "john";
 let j2 = new String("john");
 document.getElementById("demo29").innerHTML = typeof j1 + "<br>" + typeof j2;
+
+
+// js string methods 
+const j = {
+    name: "Bangladesh",
+    districts: 64,
+};
+const j3 = "Bangladesh";
+console.log(j3.length);
+
+// -----
+let str = "Apple, Banana, Kiwi";
+// let banana = str.slice(7, 13);
+// console.log(banana);
+console.log(str.slice(7,13));
+
+// -----
+let str2 = "Apple, Banana, Kiwi";
+console.log(str2.slice(-12, -6));
