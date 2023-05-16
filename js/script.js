@@ -205,3 +205,15 @@ let i1 = new Number(5);
 console.log(i1);
 
 // js Events 
+function displayDate(){
+    document.getElementById("demo27").innerHTML = Date();
+}
+
+function displayDate(){
+    alert("test");
+    document.getElementById("demo27").innerHTML = Date();
+}
+
+// js strings 
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+console.log(text.length);
