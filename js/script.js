@@ -108,3 +108,11 @@ let g = 5;
 let g1 = 5;
 let g2 = 6;
 document.getElementById("demo21").innerHTML = (g == g1) + "<br>" + (g == g2);
+
+// the typeof 
+var h = 5;
+var h1 = 4;
+var h2 = 3;
+var myObject = { h:5, h1:4, h2:3 };
+
+console.log(typeof myObject);
