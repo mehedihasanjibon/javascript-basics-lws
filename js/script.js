@@ -217,3 +217,13 @@ function displayDate(){
 // js strings 
 let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 console.log(text.length);
+
+// Escape character
+let texts = "we are the so-called \"vikings\" from the north.";
+console.log(texts);
+
+let text1 = 'It\'s alright.'
+console.log(text1);
+
+let text2 = "The character \\ is called backlash";
+console.log(text2);
