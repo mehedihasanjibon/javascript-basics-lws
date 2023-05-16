@@ -114,5 +114,54 @@ var h = 5;
 var h1 = 4;
 var h2 = 3;
 var myObject = { h:5, h1:4, h2:3 };
-
 console.log(typeof myObject);
+
+
+// js function 
+function sleep(){
+    console.log("Rafi is sleeping from 10 pm");
+}
+sleep();
+console.log("My name is Jibon");
+
+//--------
+function sleep(name){
+    console.log(name + " is sleeping from 10 pm");
+}
+
+sleep("Mehedi");
+sleep("Hasan");
+sleep("Jibon");
+console.log(name);
+
+//-------
+function sleep(name, time){
+    console.log(name + " is sleeping from " + time);
+}
+sleep("Jahid" , "5 PM");
+sleep("Munna" , "6 PM");
+sleep("Mosharof" , "7 PM");
+
+// ------
+function myBtn3(){
+    return "Hello return"
+}
+document.getElementById("demo22").innerHTML = myBtn3();
+
+// -----
+let i = myFunction4(4, 4);
+    document.getElementById("demo23").innerHTML = i;
+
+    function myFunction4(a, b){
+        return a * b;   
+    }
+
+// -----
+let carNames = "BMW";
+function myFunction1(){
+    let carNames = "volvo";
+    console.log(carNames);
+}
+
+console.log(carNames);
+myFunction1();
