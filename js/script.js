@@ -254,3 +254,14 @@ console.log(str.slice(7,13));
 // -----
 let str2 = "Apple, Banana, Kiwi";
 console.log(str2.slice(-12, -6));
+
+
+// Replacing string content
+let str3 = "I Love Sakina";
+let zarina = str3.replace("sakina", "zarina");
+console.log(zarina);
+
+function myFunction3(){
+    let texter = document.getElementById("demo30").innerHTML;
+    document.getElementById("demo30").innerHTML = texter.replace("Microsoft", "w3schools")
+}
