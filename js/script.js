@@ -293,3 +293,11 @@ document.getElementById("trim").innerHTML = "lenght text1= " + trm1.length + "<b
 let end1 = "    Hello javaTrimEnd       ";
 let end2 = end1.trimEnd();
 document.getElementById("trim1").innerHTML = "length text1 = " + end1.length + "<br> length text2 = " + end2.length; 
+
+// charAt 
+let text3 = "Hello world";
+document.getElementById("char").innerHTML = text3.charAt(0);
+
+let text4 = "Hello java";
+console.log(text4.charAt(500)); //typeof
+console.log(text4[500]);
