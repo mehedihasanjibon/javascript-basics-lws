@@ -263,5 +263,16 @@ console.log(zarina);
 
 function myFunction3(){
     let texter = document.getElementById("demo30").innerHTML;
-    document.getElementById("demo30").innerHTML = texter.replace("Microsoft", "w3schools")
+    document.getElementById("demo30").innerHTML = texter.replace("Microsoft", "W3schools")
+}
+
+
+function ourFunction(){
+    let text = document.getElementById("upper").innerHTML;
+    document.getElementById("upper").innerHTML = text.toUpperCase();
+}
+
+function ourFunction2(){
+    let text1 = document.getElementById("lower").innerHTML;
+    document.getElementById("lower").innerHTML = text1.toLowerCase();
 }
