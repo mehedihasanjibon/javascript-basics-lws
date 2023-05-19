@@ -276,3 +276,9 @@ function ourFunction2(){
     let text1 = document.getElementById("lower").innerHTML;
     document.getElementById("lower").innerHTML = text1.toLowerCase();
 }
+
+// concat
+let lan1 = "Hello";
+let lan2 = "Concat";
+let lan3 = lan1.concat(" " , lan2);
+document.getElementById("concat").innerHTML = lan3;
