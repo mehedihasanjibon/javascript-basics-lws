@@ -282,3 +282,14 @@ let lan1 = "Hello";
 let lan2 = "Concat";
 let lan3 = lan1.concat(" " , lan2);
 document.getElementById("concat").innerHTML = lan3;
+
+
+// trimStart
+let trm1 = "    Hello java      ";
+let trm2 = trm1.trimStart();
+document.getElementById("trim").innerHTML = "lenght text1= " + trm1.length + "<br> length text2= " + trm2.length; 
+
+// trimEnd
+let end1 = "    Hello javaTrimEnd       ";
+let end2 = end1.trimEnd();
+document.getElementById("trim1").innerHTML = "length text1 = " + end1.length + "<br> length text2 = " + end2.length; 
