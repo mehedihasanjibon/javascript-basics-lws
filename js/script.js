@@ -314,3 +314,12 @@ for (let i = 0; i < myArr.length; i++){
     test += myArr[i] + "<br>"
 }
 document.getElementById("split").innerHTML = test;
+
+// js string search 
+// the indexof() method 
+let text6 = "please locate where 'locate' occurs!";
+document.getElementById("demo31").innerHTML = text6.indexOf("locate");
+
+// the lastIndexOf() method 
+let text7 = "please locate where 'locate' occurs!";
+document.getElementById("demo32").innerHTML = text7.lastIndexOf("where");
