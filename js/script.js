@@ -301,3 +301,16 @@ document.getElementById("char").innerHTML = text3.charAt(0);
 let text4 = "Hello java";
 console.log(text4.charAt(500)); //typeof
 console.log(text4[500]);
+
+// split
+let text5 = "hello world";
+console.log(text5.split(" "));
+
+let test = "Hello";
+const myArr = test.split("");
+
+test = "";
+for (let i = 0; i < myArr.length; i++){
+    test += myArr[i] + "<br>"
+}
+document.getElementById("split").innerHTML = test;
